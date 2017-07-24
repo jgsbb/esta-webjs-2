@@ -1,7 +1,18 @@
 /* Obacht: Die Reihenfolge der Imports ist relevant und darf nicht geändert werden. */
+// SBB corporate design guidelines
 @import 'style/sbb-fonts';
 @import 'style/sbb-colors';
+//@import '../node_modules/font-awesome/scss/font-awesome';
+// Bootstrap stuff
+//@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'style/bootstrap-variables';
+@import 'style/bootstrap-overrides';
+// PrimeNG stuff
+//@import '../node_modules/primeng/resources/primeng.css';
+//@import '../node_modules/primeng/resources/themes/omega/theme';
+@import 'style/primeng-variables';
+//@import '../node_modules/primeng/resources/themes/theme';
+@import 'style/primeng-overrides';
+// Custom app stuff
 @import 'style/app-variables';
 @import 'style/app-style';
-@import 'style/app-temp';
-@import 'style/app-overrides';
