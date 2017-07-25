@@ -1,10 +1,5 @@
 @import 'sbb-colors';
 
-$fontFamily: 'SBBWeb Light', Arial, Helvetica, sans-serif !default;
-$fontSize: 1em;
-$borderRadius: 0;
-$disabledOpacity: 0.4;
-
 //Header
 $headerBorderWidth: 0;
 $headerBorderColor: $sbb-black-20;
@@ -12,7 +7,6 @@ $headerBgColor: $sbb-black-5;
 $headerTextColor: $sbb-black-100;
 $headerFontWeight: normal;
 $headerIconTextColor: $sbb-black-90;
-$headerHeight: 4em;
 
 //Content
 $contentBorderWidth: 0;

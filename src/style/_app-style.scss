@@ -1,4 +1,4 @@
-@import 'primeng-variables';
+@import 'app-variables';
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  font-family: $fontFamily;
+  font-family: 'SBBWeb Light', Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
@@ -49,9 +49,4 @@ h6 {
 
 main > .container {
   padding-top: $headerHeight / 2;
-}
-
-.ui-growl {
-  position: absolute;
-  z-index: 1050 !important;
 }
